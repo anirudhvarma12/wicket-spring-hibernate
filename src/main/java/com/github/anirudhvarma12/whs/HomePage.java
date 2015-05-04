@@ -12,12 +12,11 @@ public class HomePage extends WebPage {
     public SpringInterface inteface;
 
     private static final long serialVersionUID = 1L;
+
     private static Logger LOG = Logger.getLogger(HomePage.class);
 
     public HomePage(final PageParameters parameters) {
         super(parameters);
-
-        add(new Label("version", getApplication().getFrameworkSettings().getVersion()));
         LOG.debug("Implmentation says " + inteface.getString());
 
         // TODO Add your page's components here
