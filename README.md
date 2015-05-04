@@ -1,5 +1,6 @@
 # wicket-spring-hibernate
 This is an Apache Wicket project, pre-configured with Spring & Hibernate.
+To get started, clone this repo and start working
 
 ##Whats this?
 * Persistence.xml : This file is in the resources/META-INF folder, contains information related to your database.
