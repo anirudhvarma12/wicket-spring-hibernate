@@ -10,9 +10,10 @@ To get started, clone this repo and start working
 ##Use as a quickstart
 The best way to use this project would be as a maven archetype (quickstart). Here is how to do it:
 * Go to the project directory and type `mvn archetype:create-from-project`.
-* Go to the _target/generated-sources/archetype folder.
+* Go to the `target/generated-sources/archetype` folder.
 * Run the `mvn install` command.
 This will add the archetype to the .m2/archetype-catalog.xml file.
+* After this head to your favourite IDE and re-index the repository.
 
 ## How can I help?
 * I work heavily with Apache Wicket, this was made as a quickstart to avoid configuration headaches. If you found this useful for yourself, amazing. If you found any issues you can open a ticket or submit a pull request.
